@@ -1,27 +1,35 @@
-#Processamento de Dados em Sistemas Fotovoltaicos via Machine Learning
-Este repositório contém o desenvolvimento de um projeto da disciplina de Machine Learning voltado ao processamento e análise de dados de sistemas fotovoltaicos. O trabalho abrange desde o tratamento inicial dos dados até a modelagem preditiva ou classificatória.
+# ☀️ Análise de Dados Fotovoltaicos com Machine Learning
 
-👥 Grupo
-André Reis Rodrigues Filho 
-Igor Ferreira Rocha
-Yuri Lopes Gomes de Paulo
+> Projeto desenvolvido para a disciplina de Machine Learning focado no processamento e modelagem de dados de energia solar.
 
-📂 Estrutura do Repositório
-O repositório está organizado da seguinte forma:
+---
 
-apresentacao/: Slides com os tópicos do projeto.
+## 👥 Integrantes do Grupo
+* **André Reis Rodrigues Filho**
+* **Igor Ferreira Rocha**
+* **Yuri Lopes Gomes de Paulo**
 
-dados/: (Vazio) Devido ao limite de armazenamento, os dados não estão inclusos diretamente.
+---
 
-docs/: Contém o arquivo Passo a passo para baixar os dados.txt com instruções para o período de 2021 a 2025.
+## 📂 Estrutura de Pastas
 
-notebooks/: Jupyter Notebook contendo todo o pipeline de tratamento de dados e modelos.
+| Diretório / Arquivo | Descrição |
+| :--- | :--- |
+| 📁 `apresentacao/` | Slides detalhando a metodologia e resultados. |
+| 📁 `dados/` | Pasta destinada aos datasets (vazia por limitações de espaço). |
+| 📁 **`docs/`** | **Contém o guia de instalação dos dados** com o nome de Passo a passo para os dodos |
+| 📁 `notebooks/` | Jupyter Notebook com o pipeline de tratamento e ML. |
+| 📄 `machine_learning_fotovoltaica.yml` | Configurações do ambiente virtual (Conda/Anaconda). |
 
-machine_learning_fotovoltaica.yml: Arquivo de configuração para replicação das dependências do ambiente virtual.
+---
 
-🚀 Como Executar
-Configuração do Ambiente: Utilize o arquivo machine_learning_fotovoltaica.yml via terminal para instalar as bibliotecas necessárias.
+## 🚀 Guia de Execução
 
-Obtenção dos Dados: Siga as instruções no arquivo de texto dentro da pasta docs/ para baixar e organizar os datasets corretamente.
+### 1️⃣ Preparar o Ambiente
+Clone o repositório e instale as dependências utilizando o arquivo de configuração:
+```bash
+# Criar o ambiente
+conda env create -f machine_learning_fotovoltaica.yml
 
-Execução: Aponte o diretório de dados conforme indicado na documentação interna e execute o notebook.
+# Ativar o ambiente
+conda activate [NOME_DO_AMBIENTE]
