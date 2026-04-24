@@ -27,11 +27,11 @@
 
 ## 🚀 Guia de Execução
 
-### 1️⃣ Preparar o Ambiente
+### Preparar o Ambiente
 Clone o repositório e instale as dependências utilizando o arquivo de configuração:
 ```bash
 # Criar o ambiente
 conda env create -f machine_learning_fotovoltaica.yml
 
 # Ativar o ambiente
-conda activate [NOME_DO_AMBIENTE]
+conda activate machine_learning_fotovoltaica
