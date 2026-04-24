@@ -1,4 +1,4 @@
-# ☀️ Análise de Dados Fotovoltaicos com Machine Learning
+# ☀️ Análise de Dados Climáticos para Machine Learning
 
 > Projeto desenvolvido para a disciplina de Machine Learning focado no processamento e modelagem de dados de energia solar.
 
