@@ -13,6 +13,8 @@
 
 ## 📂 Estrutura de Pastas
 
+**OBS**: Os dados utilizados não foram incluídos por excederem o limite de armazenamento, porém o arquivo (Passo a passo para baixar os dados (interesse no projeto 2021 a 2025).txt) detalha o procedimento para baixá-los e organizá-los corretamente antes de rodar o código.
+
 | Diretório / Arquivo | Descrição |
 | :--- | :--- |
 | 📁 `apresentacao/` | Slides detalhando a metodologia e resultados. |
